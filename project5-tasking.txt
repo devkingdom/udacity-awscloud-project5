@@ -1,0 +1,42 @@
+Serverless project
+What has to be done.
+
+
+Real stuff to do.
+- Create a dynamo DB
+- Create model object for JSON responses/requests
+- Create an S3 bucket to hold upload files
+- Create a API Gateway
+- Auth0 setup
+- Implement CreateTODO
+   - Lambda function
+   - Write code
+      - Await/Async/Promise?
+   - Do authentication check
+   - Do logging
+   - Write to db
+   - Deploy to aws
+- Implement implment UpdateTODO
+- Implement DeleteTODO
+- Implement GetTODO
+
+
+
+Says to do
+1. Create a TODO item
+2. Update a TODO item
+3. Delete a TODO item
+4. Upload a file (with what unknown)
+5. TODO should only be seen for the user logged in who created them.
+6. User has to authenticate
+7. Business logic is lambda fucntions
+   - Databse access
+   - File storage
+   - Lamda functions
+8. Code should use await/async and promise (no callbacks)
+9. Everything in serverless.yml
+10. Each func has its own permissions
+11. Add monitoring to app (Logs, Tracing, or App metrics)
+12. Validate HTTP requests through API Gateway
+13. DynamoDB used to store data in table with composite key
+14. Use query to find data in db
